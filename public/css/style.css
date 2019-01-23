@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin: 0;
+}/*body*/
+
+body>div{
+    background: #e8e8e8;
+    padding-top: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+}
+body>div>div{
+    background: white;
+}
+body>div>p{
+    margin-top: 15px;
+    color: #9c9c9c;
+    font-size: 20px;
+    text-align: center;
+}
+#logo-container{
+    background: #fe603c;
+    height: 120px;
+}/*logo-container*/
+#logo{
+   height: 70%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}/*logo-container*/
+#logo-image{
+    width: 100%;
+    height: 100%;
+}/*logo*/
+#phone-img{
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+}
+#banner{
+    background: url("../../public/image/banner.png") no-repeat;
+    background-size: 100% 100%;
+    height: 30%;
+    margin-top: 2px;
+}
+#section{
+    background: #009bba;
+    font-size: 420%;
+    font-family: "Adobe Fan Heiti Std B";
+    color: white;
+}/*section*/
+
+#content p{
+    font-size: 24px;
+}/*content p*/
+
+#content a{
+    font-size: 24px;
+}/*content p*/
