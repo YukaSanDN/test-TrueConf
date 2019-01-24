@@ -15,7 +15,10 @@ function sizeBanner() {
     banner.height(banner.width()/2);
 }//sizeBanner
 
-//$(window).scroll(main_scroll);
+$(window).resize(function () {
+    sizeBanner();
+    contentSize();
+});
 $(document).ready(function () {
     sizeBanner();
     contentSize();

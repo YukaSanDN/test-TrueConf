@@ -58,3 +58,13 @@ body>div>p{
 #content a{
     font-size: 24px;
 }/*content p*/
+
+@media only screen and (max-device-width:600px) {
+    #content p{
+        font-size: 30px;
+    }
+
+    #content a{
+        font-size: 30px;
+    }
+}
